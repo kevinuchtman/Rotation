@@ -1,0 +1,48 @@
+{
+  "timeBlockMinutes": 120,
+
+  "hours": {
+    "weekday": { "open": "08:00", "close": "20:00" },
+    "saturday": { "open": "09:00", "close": "18:00" },
+    "sunday": { "open": "10:00", "close": "17:00" }
+  },
+
+  "stations": {
+    "rows": [
+      { "key": "Data1", "label": "Data 1", "station": "Data" },
+      { "key": "Data2", "label": "Data 2", "station": "Data" },
+      { "key": "Data3", "label": "Data 3", "station": "Data" },
+
+      { "key": "Product1", "label": "Product 1", "station": "Product" },
+      { "key": "Product2", "label": "Product 2", "station": "Product" },
+      { "key": "Product3", "label": "Product 3", "station": "Product" },
+
+      { "key": "DriveThru1", "label": "Drive Thru 1", "station": "DriveThru" },
+      { "key": "DriveThru2", "label": "Drive Thru 2", "station": "DriveThru" },
+
+      { "key": "Release1", "label": "Release 1", "station": "Release" },
+      { "key": "Release2", "label": "Release 2", "station": "Release" },
+      { "key": "Release3", "label": "Release 3", "station": "Release" },
+      { "key": "Release4", "label": "Release 4", "station": "Release" },
+      { "key": "Release5", "label": "Release 5", "station": "Release" },
+
+      { "key": "Misc", "label": "Misc", "station": "Misc" }
+    ],
+
+    "requiredAtLeastOne": ["Data", "Product", "DriveThru", "Release"]
+  },
+
+  "coverage": {
+    "releaseMinAllDay": 2,
+    "releasePeak": { "start": "12:00", "end": "16:00", "min": 4 },
+
+    "miscWeekday": { "start": "12:00", "end": "14:00", "required": true },
+
+    "driveThru2Rule": true
+  },
+
+  "priorities": {
+    "fillLowestSlotFirst": true,
+    "prioritizeRelease3OverProduct3": true
+  }
+}

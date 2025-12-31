@@ -1,0 +1,42 @@
+[
+  {
+    "id": "john",
+    "name": "John",
+    "hard": { "cannot": [], "maxHoursPerDay": { "Release": null, "DriveThru": null, "CustomerFacing": null } },
+    "soft": { "dislikes": ["Data"], "prefersNot": [] },
+    "skills": { "strong": ["Release", "DriveThru", "Product"], "weak": [] },
+    "pairing": { "needs": [] }
+  },
+  {
+    "id": "missie",
+    "name": "Missie",
+    "hard": { "cannot": ["Product"], "maxHoursPerDay": { "Release": null, "DriveThru": null, "CustomerFacing": null } },
+    "soft": { "dislikes": [], "prefersNot": [] },
+    "skills": { "strong": ["Data"], "weak": [] },
+    "pairing": { "needs": [] }
+  },
+  {
+    "id": "madeline",
+    "name": "Madeline",
+    "hard": { "cannot": [], "maxHoursPerDay": { "Release": 2, "DriveThru": 2, "CustomerFacing": null } },
+    "soft": { "dislikes": [], "prefersNot": [] },
+    "skills": { "strong": [], "weak": [] },
+    "pairing": { "needs": [] }
+  },
+  {
+    "id": "abigail",
+    "name": "Abigail",
+    "hard": { "cannot": [], "maxHoursPerDay": { "Release": null, "DriveThru": null, "CustomerFacing": null } },
+    "soft": { "dislikes": [], "prefersNot": [] },
+    "skills": { "strong": ["DriveThru", "Release"], "weak": ["Data"] },
+    "pairing": { "needs": ["Data", "Product"] }
+  },
+  {
+    "id": "kathy",
+    "name": "Kathy",
+    "hard": { "cannot": [], "maxHoursPerDay": { "Release": null, "DriveThru": null, "CustomerFacing": null } },
+    "soft": { "dislikes": [], "prefersNot": [] },
+    "skills": { "strong": ["Data","Product","Release","DriveThru"], "weak": [] },
+    "pairing": { "needs": [] }
+  }
+]
